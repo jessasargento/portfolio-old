@@ -1,0 +1,29 @@
+
+
+span#change:before{
+	content:'';
+	animation: animate infinite 8s;
+}
+@keyframes animate {
+	0%{
+	content: "I'M JESSA";
+	}
+	20%{
+	content: "I'M JESSA";
+	}
+	40%{
+	content: "I'M JESSA";
+	}
+	60%{
+	content: "I'M JSSEA";
+	}
+	80%{
+	content: "I'M JSSEA";
+	}
+	100%{
+	content: "I'M JESSA";
+	}
+}
+.clipped {
+    clip-path: circle(50% at 50% 50%);
+}
