@@ -1672,6 +1672,10 @@ input, select, textarea {
 	width:80%;
 }
 
+.img-box4 img{
+	width:100%;
+}
+
 .btn{
 	border:none;
 	outline:none;

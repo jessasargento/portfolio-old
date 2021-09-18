@@ -66,6 +66,32 @@ function setImg3(){
 
 
 
+
+var slider_img4 = document.querySelector('.slider-img4');
+var images4 = ['../images/pubs/gif1.gif', '../images/pubs/gif2.gif', '../images/pubs/gif3.gif', '../images/pubs/gif4.gif',];
+var i = 0;
+
+function prev4(){
+	if(i <= 0) i = images4.length;	
+	i--;
+	return setImg4();			 
+}
+
+function next4(){
+	if(i >= images4.length-1) i = -1;
+	i++;
+	return setImg4();			 
+}
+
+function setImg4(){
+	return slider_img4.setAttribute('src', "images/"+images4[i]);
+
+}
+
+
+
+
+
 var autoPlayVideo = document.getElementById("ocScreencapVideo");
     		autoPlayVideo.oncanplaythrough = function() {
 	        autoPlayVideo.muted = false;
@@ -121,6 +147,7 @@ $(document).ready(function() {
 			    $('.hidden-menu2').hide("slow");
 			    $('.hidden-menu4').hide("slow");
 			    $('.hidden-menu6').hide("slow");
+
 			      });
 
 		     $('#show-hidden-menu6').click(function() {
