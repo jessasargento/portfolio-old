@@ -1668,6 +1668,10 @@ input, select, textarea {
 	width:100%;
 }
 
+.img-box3 img{
+	width:80%;
+}
+
 .btn{
 	border:none;
 	outline:none;

@@ -43,7 +43,26 @@ function setImg(){
 				}
 
 
+var slider_img3 = document.querySelector('.slider-img3');
+var images3 = ['../images/posters/trishtan.jpg', '../images/posters/trishtan2.jpg', '../images/posters/jssea.jpg', '../images/posters/riah.jpg', '../images/posters/karen.jpg',  ];
+var i = 0;
 
+function prev3(){
+	if(i <= 0) i = images3.length;	
+	i--;
+	return setImg3();			 
+}
+
+function next3(){
+	if(i >= images3.length-1) i = -1;
+	i++;
+	return setImg3();			 
+}
+
+function setImg3(){
+	return slider_img3.setAttribute('src', "images/"+images3[i]);
+
+}
 
 
 
