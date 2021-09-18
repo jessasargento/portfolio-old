@@ -19,28 +19,31 @@ function next(){
 function setImg(){
 	return slider_img.setAttribute('src', "images/"+images[i]);
 	
-}
+				}
 
-var slider_img2 = document.querySelector('.slider-img2');
-var images2 = ['../images/pubs/vfc.png', '../images/pubs/acle1.png', '../images/pubs/acle2.png', '../images/pubs/album.png', 'e.jpg'];
-var i = 0;
+				var slider_img2 = document.querySelector('.slider-img2');
+				var images2 = ['../images/pubs/1.jpg', '../images/pubs/2.jpg', '../images/pubs/3.jpg', '../images/pubs/4.jpg', '../images/pubs/5.jpg', '../images/pubs/6.jpg', '../images/pubs/7.jpg', '../images/pubs/8.jpg', '../images/pubs/9.jpg', ];
+				var i = 0;
 
-function prev2(){
-	if(i <= 0) i = images.length;	
-	i--;
-	return setImg2();			 
-}
+				function prev2(){
+					if(i <= 0) i = images2.length;	
+					i--;
+					return setImg2();			 
+				}
 
-function next2(){
-	if(i >= images.length-1) i = -1;
-	i++;
-	return setImg2();			 
-}
+				function next2(){
+					if(i >= images2.length-1) i = -1;
+					i++;
+					return setImg2();			 
+				}
 
-function setImg2(){
-	return slider_img2.setAttribute('src', "images/"+images2[i]);
-	
-}
+				function setImg2(){
+					return slider_img2.setAttribute('src', "images/"+images2[i]);
+					
+				}
+
+
+
 
 
 
