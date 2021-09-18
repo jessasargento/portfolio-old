@@ -1,8 +1,46 @@
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
+var autoPlayVideo = document.getElementById("ocScreencapVideo");
+    		autoPlayVideo.oncanplaythrough = function() {
+	        autoPlayVideo.muted = false;
+	        autoPlayVideo.play();
+	        autoPlayVideo.pause();
+	        autoPlayVideo.play();}
+
+
+$(document).ready(function() {
+			  $('#show-hidden-menu').click(function() {
+			    $('.hidden-menu').slideToggle("slow");
+			    $('.hidden-menu2').hide("slow");
+			    $('.hidden-menu3').hide("slow");
+			    $('.hidden-menu4').hide("slow");
+		
+			  });
+			  $('#show-hidden-menu2').click(function() {
+			    $('.hidden-menu2').slideToggle("slow");
+			    $('.hidden-menu').hide("slow");
+			    $('.hidden-menu3').hide("slow");
+			    $('.hidden-menu4').hide("slow");
+
+			  });
+			   $('#show-hidden-menu3').click(function() {
+			    $('.hidden-menu3').slideToggle("slow");
+			     $('.hidden-menu').hide("slow");
+			    $('.hidden-menu2').hide("slow");
+			    $('.hidden-menu4').hide("slow");
+
+
+			  });
+			   $('#show-hidden-menu4').click(function() {
+			    $('.hidden-menu4').slideToggle("slow");
+			     $('.hidden-menu').hide("slow");
+			    $('.hidden-menu3').hide("slow");
+			    $('.hidden-menu2').hide("slow");
+	
+			  });
+			});
+
+
+
 
 (function($) {
 
