@@ -1,3 +1,48 @@
+// 'js/mian.js'
+
+var slider_img = document.querySelector('.slider-img');
+var images = ['../images/photography/photo1.jpg', '../images/photography/photo2.jpg', '../images/photography/photo3.jpg', 'd.jpg', 'e.jpg'];
+var i = 0;
+
+function prev(){
+	if(i <= 0) i = images.length;	
+	i--;
+	return setImg();			 
+}
+
+function next(){
+	if(i >= images.length-1) i = -1;
+	i++;
+	return setImg();			 
+}
+
+function setImg(){
+	return slider_img.setAttribute('src', "images/"+images[i]);
+	
+}
+
+var slider_img = document.querySelector('.slider-img2');
+var images = ['../images/pubs/vfc.png', '../images/pubs/acle1.png', '../images/pubs/acle2.png', '../images/pubs/album.png', 'e.jpg'];
+var i = 0;
+
+function prev(){
+	if(i <= 0) i = images.length;	
+	i--;
+	return setImg();			 
+}
+
+function next(){
+	if(i >= images.length-1) i = -1;
+	i++;
+	return setImg();			 
+}
+
+function setImg(){
+	return slider_img.setAttribute('src', "images/"+images[i]);
+	
+}
+
+
 
 var autoPlayVideo = document.getElementById("ocScreencapVideo");
     		autoPlayVideo.oncanplaythrough = function() {
