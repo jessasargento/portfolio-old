@@ -108,7 +108,7 @@ $(document).ready(function() {
 			    $('.hidden-menu4').hide("slow");
 			      $('.hidden-menu5').hide("slow");
 			    $('.hidden-menu6').hide("slow");
-		
+			$('.hidden-menu7').hide("slow");
 			  });
 			  $('#show-hidden-menu2').click(function() {
 			    $('.hidden-menu2').slideToggle("slow");
@@ -117,6 +117,7 @@ $(document).ready(function() {
 			    $('.hidden-menu4').hide("slow");
 			      $('.hidden-menu5').hide("slow");
 			    $('.hidden-menu6').hide("slow");
+			    $('.hidden-menu7').hide("slow");
 
 			  });
 			   $('#show-hidden-menu3').click(function() {
@@ -126,7 +127,7 @@ $(document).ready(function() {
 			    $('.hidden-menu4').hide("slow");
 			      $('.hidden-menu5').hide("slow");
 			    $('.hidden-menu6').hide("slow");
-
+			    $('.hidden-menu7').hide("slow");
 
 			  });
 			   $('#show-hidden-menu4').click(function() {
@@ -136,7 +137,7 @@ $(document).ready(function() {
 			    $('.hidden-menu2').hide("slow");
 			      $('.hidden-menu5').hide("slow");
 			    $('.hidden-menu6').hide("slow");
-	
+				$('.hidden-menu7').hide("slow");
 			  });
 
 			
@@ -147,7 +148,7 @@ $(document).ready(function() {
 			    $('.hidden-menu2').hide("slow");
 			    $('.hidden-menu4').hide("slow");
 			    $('.hidden-menu6').hide("slow");
-
+			    $('.hidden-menu7').hide("slow");
 			      });
 
 		     $('#show-hidden-menu6').click(function() {
@@ -156,6 +157,18 @@ $(document).ready(function() {
 			    $('.hidden-menu3').hide("slow");
 			    $('.hidden-menu2').hide("slow");
 			      $('.hidden-menu4').hide("slow");
+			    $('.hidden-menu5').hide("slow");
+			     $('.hidden-menu7').hide("slow");
+
+			     });
+
+		     $('#show-hidden-menu7').click(function() {
+			    $('.hidden-menu7').slideToggle("slow");
+			     $('.hidden-menu').hide("slow");
+			    $('.hidden-menu3').hide("slow");
+			    $('.hidden-menu2').hide("slow");
+			      $('.hidden-menu4').hide("slow");
+			        $('.hidden-menu6').hide("slow");
 			    $('.hidden-menu5').hide("slow");
 	
 			  });
