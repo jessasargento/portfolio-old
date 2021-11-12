@@ -32,14 +32,28 @@
 							<div class="inner">
 								<h1>HELLO <span id="change"></span></h1>
    
-								<p>Browse here some of the works i've done over the past years. <br />Watch my demo reel below, if it does not load click <a href="#demoreel">here.</a> 
+								<p>Browse here the works i've done over the past years. <br />Watch my demo reel below: 
 								</p>
-
-								<video id="ocScreencapVideo" autoplay="autoplay" loop="loop" playsinline="playsinline" preload="metadata" data-aos="fade-up" width="500" height="281.25">
-								  <source src="assets/vid.mp4" type="video/mp4">  
-
-							    Your browser does not support MP4 Format videos or HTML5 Video.
-							</video>
+<video
+								    id="my-video"
+								    class="video-js"
+								    controls
+								    preload="auto"
+								    width="560" height="315"
+								    poster="assets/ss.jpg"
+								    data-setup="{}">
+								    <source src="assets/vid.mp4" type="video/mp4" />
+								    <p class="vjs-no-js">
+								      To view this video please enable JavaScript, and consider upgrading to a
+								      web browser that
+								      <a href="https://videojs.com/html5-video-support/" target="_blank"
+								        >supports HTML5 video</a>
+								    </p>
+								  </video>
+  								<br>
+  								<p style="font-size:11px;line-height:13px">Featuring the following short features: <br><i>Babuyan</i> (2018) dir. Aaron Alsol, <i>The Retreat</i> (2018) dir. Riah Tonio,<br> <i>Meow</i> (2019) dir. Zara Loayon, <i>Ina, Anak, at Espiritu Santo </i><br>(2019) dir. Arra Caparas, <i>Ligaya</i> (2019) dir. Andrea Hatfield, <i><br>Once Lang Magkafirst Love </i>(2018) dir. Jessa Mae Sargento. <br>Music used with no permission: Aliens - Kirinji </p><br>
+							
+								
 
 						
 	
@@ -59,27 +73,14 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Demo Reel Did Not Load -->
-							<article id="demoreel">
+						<!-- Old Demo Reel Auto Load -->
+							<article id="olddemoreel">
 								<h2 class="major">Demo Reel</h2>
-									<video
-								    id="my-video"
-								    class="video-js"
-								    controls
-								    preload="auto"
-								    width="560" height="315"
-								    poster="MY_VIDEO_POSTER.jpg"
-								    data-setup="{}">
-								    <source src="assets/vid.mp4" type="video/mp4" />
-								    <p class="vjs-no-js">
-								      To view this video please enable JavaScript, and consider upgrading to a
-								      web browser that
-								      <a href="https://videojs.com/html5-video-support/" target="_blank"
-								        >supports HTML5 video</a>
-								    </p>
-								  </video>
-  								<br>
-  								<p>Featuring the following short features: <i>Babuyan</i> (2018) dir. Aaron Alsol, <i>The Retreat</i> (2018) dir. Riah Tonio, <i>Meow</i> (2019) dir. Zara Loayon, <i>Ina, Anak, at Espiritu Santo </i>(2019) dir. Arra Caparas, <i>Ligaya</i> (2019) dir. Andrea Hatfield, <i>Once Lang Magkafirst Love </i>(2018) dir. Jessa Mae Sargento. Music used with no permission: Aliens - Kirinji </p><br>
+									<video id="ocScreencapVideo" autoplay="autoplay" loop="loop" playsinline="playsinline" preload="metadata" data-aos="fade-up" width="500" height="281.25">
+								  <source src="assets/vid.mp4" type="video/mp4">  
+
+							    Your browser does not support MP4 Format videos or HTML5 Video.
+							</video>
 
 							</article>
 
