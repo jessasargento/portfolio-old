@@ -22,7 +22,7 @@ function setImg(){
 				}
 
 				var slider_img2 = document.querySelector('.slider-img2');
-				var images2 = ['../images/pubs/1.jpg', '../images/pubs/2.jpg', '../images/pubs/3.jpg', '../images/pubs/4.jpg', '../images/pubs/5.jpg', '../images/pubs/6.jpg', '../images/pubs/7.jpg', '../images/pubs/8.jpg', '../images/pubs/9.jpg', ];
+				var images2 = ['../images/pubs/1.jpg', '../images/pubs/2.jpg', '../images/pubs/3.jpg', '../images/pubs/4.jpg', '../images/pubs/5.jpg', '../images/pubs/6.jpg', '../images/pubs/7.jpg', '../images/pubs/8.jpg', '../images/pubs/9.jpg', '../images/pubs/10.jpg', ];
 				var i = 0;
 
 				function prev2(){
